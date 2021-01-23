@@ -20,8 +20,8 @@ func main() {
 		y := float64(combo.Y)
 		z := float64(combo.Z)
 
-		// return math.Abs(x-y) == math.Abs(y-z)
-		// return math.Pow(x, 2)+math.Pow(y, 2) == math.Pow(z, 2)
+		//isSucc := math.Abs(x-y) == math.Abs(y-z)
+		//isSucc := math.Pow(x, 2)+math.Pow(y, 2) == math.Pow(z, 2)
 		isSucc := x+y == z
 
 		if isSucc && !u.IsDuplicate(succCombos, combo) {
